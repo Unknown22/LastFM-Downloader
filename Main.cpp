@@ -18,8 +18,11 @@ int main()
 
 	LastFM strona = { adres, adres_zrodla };
 
+	//-----DO PÊTLI
 	strona.odczytaj_zrodlo_strony();
 	strona.zapisz_zrodlo_do_pliku();
+	strona.szukaj_piosenek();
+	//-----KONIEC DO PÊTLI
 
 	_getch();
 	return 0;
